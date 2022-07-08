@@ -2,3 +2,36 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background: url("https://images.unsplash.com/photo-1589810264340-0ce27bfbf751?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGdyYWRpZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.pagination {
+  list-style: none;
+  display: flex;
+}
+.list-group {
+  list-style: none;
+  padding: 8px;
+  margin: 8px;
+  border: solid 4px white;
+  border-radius: 8px;
+}
+.list-group-item {
+  margin: 8px;
+  padding: 8px;
+  background: #ffffff55;
+  border-radius: 4px;
+  transition: 0.2s ease all;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  background: #ffffffff;
+}
+.page-link {
+  text-decoration: none;
+  padding: 8px;
+  margin: 8px;
+  background: whitesmoke;
+  color: black;
+  border-radius: 5px;
+}

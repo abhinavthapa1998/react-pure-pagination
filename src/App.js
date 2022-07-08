@@ -27,6 +27,7 @@ export default function App() {
   return (
     <div className="container mt-5">
       <h1 className="text-primary mb-3">My Blog</h1>
+      <button onClick={() => setPostsPerPage(5)}>Set 5 Posts Per Page</button>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}
